@@ -1,0 +1,4 @@
+*.dll
+*.xml
+Scripts/bin/Debug/*
+Scripts/obj/*

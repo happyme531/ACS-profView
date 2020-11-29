@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="..\..\..\Amazing Cultivation Simulator_Data\Managed\Assembly-CSharp.dll" />
+    <Reference Include="..\..\..\Amazing Cultivation Simulator_Data\Managed\Assembly-CSharp-firstpass.dll" />
+    <Reference Include="..\..\..\Amazing Cultivation Simulator_Data\Managed\UnityEngine.dll" />
+    <Reference Include="..\..\..\Amazing Cultivation Simulator_Data\Managed\UnityEngine.CoreModule.dll" />
+  </ItemGroup>
+
+</Project>

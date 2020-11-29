@@ -1,0 +1,10 @@
+{
+	"Name":"profview",		
+	"DisplayName":"高级查看器", 
+	"Desc":"TODO",
+	"GameVersion":0.95,	
+	"Version":1,			
+	"Author":"GSQ",			
+	"Sort":"99999",		
+	"IncreasedDesc":"TODO"	
+}
