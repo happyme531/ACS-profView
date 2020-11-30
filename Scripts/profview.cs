@@ -108,8 +108,8 @@ namespace profView
                 tickPerSecond = (float)(30 / ((DateTime.Now - lastTpsUpdate).TotalMilliseconds / 1000));
                 lastTpsUpdate = DateTime.Now;
 
-                UIHud.getInstance().text = "tps:" + tickPerSecond.ToString().Substring(0, 5) +
-                                                "\nmspt:" + (UnityEngine.Time.deltaTime * 1000).ToString().Substring(0, 5) +
+                UIHud.getInstance().text = "每秒更新次数:" + tickPerSecond.ToString().Substring(0, 5) +
+                                                "\n每次更新前进时间:" + (UnityEngine.Time.deltaTime * 1000).ToString().Substring(0, 5) +
                                                 "\n游戏速度:x" + (tickPerSecond * UnityEngine.Time.deltaTime).ToString().Substring(0, 4);
                 UIHud.getInstance().text += "\n" + mapGridUtil.getPreciseGridData();
                 try
